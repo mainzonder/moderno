@@ -15,11 +15,11 @@ gulp.task('sass', function () {
     .src('app/scss/**/*.scss')
     .pipe(sass({ outputStyle: 'expanded' }))
     .pipe(rename({ suffix: '.min' }))
-    .pipe(
-      autoprefixer({
-        overrideBrowserslist: ['last 8 versions'],
-      })
-    )
+    // .pipe(
+    //   autoprefixer({
+    //     overrideBrowserslist: ['last 8 versions'],
+    //   })
+    // )
     .pipe(shorthand())
     .pipe(gulp.dest('app/css'))
     .pipe(browserSync.reload({ stream: true }));
@@ -30,6 +30,11 @@ gulp.task('css', function () {
     .src('app/css/**/style.min.css')
     .pipe(sourcemaps.init())
     .pipe(postcss([require('precss'), require('autoprefixer')]))
+        .pipe(
+      autoprefixer({
+        overrideBrowserslist: ['last 8 versions'],
+      })
+    )
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('build/'));
 });

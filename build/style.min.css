@@ -1,11 +1,13 @@
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 a {
@@ -41,10 +43,16 @@ body {
 }
 
 .header__top-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 90px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header__text {
@@ -79,8 +87,12 @@ body {
 }
 
 .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 60px;
 }
 
@@ -95,5 +107,85 @@ body {
 .menu__list a {
   font-size: 14px;
   color: #fff;
+}
+
+.search {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 533px;
+}
+
+.search__inner {
+  padding: 135px 0 100px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.search__inner-title {
+  margin-bottom: 28px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+}
+
+.search__inner-text {
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.search__inner-form {
+  max-width: 670px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.search__inner-form input {
+  display: block;
+  width: 100%;
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(124, 178, 64, 0.75);
+          box-shadow: 0px 1px 10px 0px rgba(124, 178, 64, 0.75);
+  border-radius: 4px;
+  height: 56px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 25px;
+  padding-right: 60px;
+}
+
+.search__inner-form input::-moz-placeholder {
+  color: #90a4ae;
+  font-weight: 500;
+}
+
+.search__inner-form input:-ms-input-placeholder {
+  color: #90a4ae;
+  font-weight: 500;
+}
+
+.search__inner-form input::-webkit-input-placeholder {
+  color: #90a4ae;
+  font-weight: 500;
+}
+
+.search__inner-form input::-ms-input-placeholder {
+  color: #90a4ae;
+  font-weight: 500;
+}
+
+.search__inner-form input::placeholder {
+  color: #90a4ae;
+  font-weight: 500;
+}
+
+.search__inner-form button {
+  background: transparent;
+  position: absolute;
+  border: none;
+  right: 20px;
+  top: 16px;
 }
 /*# sourceMappingURL=style.min.css.map */
