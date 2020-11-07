@@ -21,10 +21,12 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "magnific-popup": "^1.1.0",
+    "mixitup": "^3.3.1",
     "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
     "postcss": "^8.1.4",
     "precss": "^4.0.0",
+    "rateyo": "^2.3.2",
     "slick-carousel": "^1.8.1"
   },
   "dependencies": {}
