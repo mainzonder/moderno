@@ -30,6 +30,7 @@
     "slick-carousel": "^1.8.1"
   },
   "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "gulp-ci": "^0.0.0"
   }
 }
