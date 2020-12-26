@@ -92,7 +92,7 @@ body {
 			& + li {
 				padding-left: 24px;
 				&::before {
-					content: '_';
+					content: '—';
 					position: absolute;
 					left: 0;
 					color: $green;
@@ -118,8 +118,9 @@ body {
 		font-family: 'icomoon';
 		position: absolute;
 		left: 0;
+
 		color: $green;
-		font-size: 14px;
+		font-size: 18px;
 	}
 }
 // .user__menu {
