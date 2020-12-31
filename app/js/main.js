@@ -11,12 +11,6 @@ $(function () {
     slidesToScroll: 4,
   });
 
-  $('.product-slider__inner').slick({
-    dots: true,
-    arrows: false,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-  });
 
   // $('.js-range-slider').ionRangeSlider({
   //   type: 'double',
