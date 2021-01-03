@@ -1,6 +1,6 @@
-@import 'vars';
-@import 'global';
-@import 'fonts';
+@import "vars";
+@import "global";
+@import "fonts";
 
 // start header
 .header {
@@ -146,9 +146,9 @@
   position: relative;
 
   &::before {
-    content: '\f107';
+    content: "\f107";
     position: absolute;
-    font-family: 'icomoon';
+    font-family: "icomoon";
     font-size: 16px;
     color: #707070;
     top: 0;
@@ -398,7 +398,7 @@
 
     &::before {
       position: absolute;
-      font-family: 'icomoon';
+      font-family: "icomoon";
       font-size: 14px;
       color: #ffffff;
       left: 18px;
@@ -407,11 +407,11 @@
   }
 
   .login__label-name::before {
-    content: '\f007';
+    content: "\f007";
   }
 
   .login__label-pass::before {
-    content: '\f023';
+    content: "\f023";
   }
 
   input {
@@ -464,8 +464,8 @@
   position: relative;
 
   &::before {
-    font-family: 'icomoon';
-    content: '\f044';
+    font-family: "icomoon";
+    content: "\f044";
     position: absolute;
     top: 15px;
     left: 35px;
@@ -906,7 +906,7 @@
 
   &-title {
     font-size: 22px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     color: #ffffff;
     padding-bottom: 30px;
@@ -914,7 +914,7 @@
     position: relative;
 
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       bottom: 0;
       left: 2px;
@@ -938,8 +938,8 @@
   position: relative;
 
   &::before {
-    content: '\f041';
-    font-family: 'icomoon';
+    content: "\f041";
+    font-family: "icomoon";
     color: $green;
     font-size: 18px;
     position: absolute;
@@ -949,7 +949,7 @@
 
 .footer__info-phone {
   &::before {
-    content: '\f095';
+    content: "\f095";
   }
 }
 
@@ -961,12 +961,12 @@
     position: relative;
 
     &::before {
-      content: '\f105';
+      content: "\f105";
       color: $green;
       position: absolute;
       left: 0;
       font-size: 18px;
-      font-family: 'icomoon';
+      font-family: "icomoon";
     }
   }
 }
@@ -985,7 +985,7 @@
   a {
     width: 28px;
     height: 28px;
-    background-image: url('../images/css_sprites.png');
+    background-image: url("../images/css_sprites.png");
     background-position: 0 0;
 
     a + a {
@@ -1046,9 +1046,9 @@
     cursor: pointer;
 
     &::before {
-      content: '\f124';
+      content: "\f124";
       position: absolute;
-      font-family: 'icomoon';
+      font-family: "icomoon";
       color: #ffffff;
       font-size: 20px;
       top: 11px;
@@ -1096,12 +1096,12 @@
     padding-left: 20px;
 
     &::before {
-      content: 'f\105';
+      content: "f\105";
       color: #8bc34a;
       position: absolute;
       left: 0;
       font-size: 18px;
-      font-family: 'icomoon';
+      font-family: "icomoon";
     }
   }
 
@@ -1134,13 +1134,13 @@
     position: relative;
 
     &::before {
-      content: '\f002';
+      content: "\f002";
       color: #ffffff;
       position: absolute;
       left: 58px;
       top: 15px;
       font-size: 15px;
-      font-family: 'icomoon';
+      font-family: "icomoon";
     }
   }
 }
@@ -1503,7 +1503,7 @@ button.icon-unsorted {
   max-width: 829px;
   height: 422px;
   width: 100%;
-  background-image: url('../images/content/product.jpg');
+  background-image: url("../images/content/product.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1722,7 +1722,7 @@ button.icon-unsorted {
     background-color: $text;
     color: #fff;
     font-size: 16px;
-    font-family: 'Roboto', sans-serif !important;
+    font-family: "Roboto", sans-serif !important;
     font-weight: 700;
     text-align: center;
     display: block;
@@ -1732,7 +1732,7 @@ button.icon-unsorted {
 
     &::before {
       font-weight: 400;
-      font-family: 'icomoon';
+      font-family: "icomoon";
       padding-right: 8px;
     }
   }
@@ -1789,31 +1789,31 @@ button.icon-unsorted {
   }
 
   .icon-meh-o {
-    background-image: url('../images/awards/award-orange.png');
+    background-image: url("../images/awards/award-orange.png");
     width: 34px;
     height: 37px;
   }
 
   .icon-pagelines {
-    background-image: url('../images/awards/award-red.png');
+    background-image: url("../images/awards/award-red.png");
     width: 34px;
     height: 37px;
   }
 
   .icon-flash {
-    background-image: url('../images/awards/award-blue.png');
+    background-image: url("../images/awards/award-blue.png");
     width: 34px;
     height: 37px;
   }
 
   .icon-foursquare {
-    background-image: url('../images/awards/award-green.png');
+    background-image: url("../images/awards/award-green.png");
     width: 34px;
     height: 37px;
   }
 
   .icon-yen {
-    background-image: url('../images/awards/award-grey.png');
+    background-image: url("../images/awards/award-grey.png");
     width: 34px;
     height: 37px;
   }
@@ -1832,10 +1832,10 @@ button.icon-unsorted {
     padding-right: 13px;
 
     &::before {
-      content: '\f07a';
+      content: "\f07a";
       color: #a6b5bb;
       padding-right: 20px;
-      font-family: 'icomoon';
+      font-family: "icomoon";
     }
   }
 }
@@ -1884,7 +1884,7 @@ button.icon-unsorted {
 }
 
 .page-404__404 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 800;
   font-size: 300px;
   padding-top: 70px;
@@ -1893,9 +1893,9 @@ button.icon-unsorted {
   position: relative;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
-    background-image: url('../images/page-404.png');
+    background-image: url("../images/page-404.png");
     width: 150px;
     height: 292px;
     margin-left: 15px;
@@ -1991,7 +1991,7 @@ button.icon-unsorted {
   margin-bottom: 20px;
 
   &::after {
-    content: '';
+    content: "";
     width: 44px;
     height: 4px;
     background-color: $green;
@@ -2211,7 +2211,7 @@ button.icon-unsorted {
 
   &::before {
     position: absolute;
-    content: '';
+    content: "";
     left: 11px;
     top: 13px;
     width: 9px;
@@ -2250,8 +2250,8 @@ button.icon-unsorted {
   box-shadow: 0 1px 2px rgba(69, 90, 100, 0.75);
 
   &::before {
-    content: '\f003';
-    font-family: 'icomoon';
+    content: "\f003";
+    font-family: "icomoon";
     position: absolute;
     left: 50px;
     top: 17px;
@@ -2278,7 +2278,7 @@ button.icon-unsorted {
 }
 
 .profile__banner-images {
-  background-image: url('../images/content/banner.jpg');
+  background-image: url("../images/content/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2320,20 +2320,22 @@ button.icon-unsorted {
 .profile-settings {
   .product-one__tabs.settings__tabs {
     .tabs span {
-      font-family: 'Roboto', sans-serif !important;
+      font-family: "Roboto", sans-serif !important;
       font-weight: 500;
       color: #707070;
       position: relative;
+
       &.active::before {
         color: $green;
       }
+
       &::before {
         top: 15px;
         left: 27px;
         font-size: 14px;
         position: absolute;
         color: #d0d0d0;
-        font-family: 'icomoon';
+        font-family: "icomoon";
       }
     }
   }
@@ -2390,11 +2392,173 @@ button.icon-unsorted {
     display: block;
     height: 15px;
     border-radius: 3px;
-    background-image: url('../images/pro-bar.jpg');
+    background-image: url("../images/pro-bar.jpg");
     background-repeat: repeat;
   }
 }
 
+//start upload
+.upload {
+}
+
+.container {
+}
+
+.upload__inner {
+  background-color: #ffffff;
+  border: 1px solid #d7d7d7;
+  margin-bottom: 110px;
+
+  button {
+    color: #ffffff;
+    background-color: $green;
+    border: none;
+    padding: 15px 36px;
+    margin-left: 175px;
+    cursor: pointer;
+  }
+}
+
+.upload__inner-title {
+  padding: 16px 35px 18px;
+  @include f500;
+  font-size: 24px;
+  color: $bg;
+  border-bottom: 1px solid #d7d7d7;
+  margin-bottom: 40px;
+}
+
+.upload__inner-content {
+  margin-bottom: 30px;
+  padding-left: 45px;
+  padding-right: 50px;
+}
+
+.upload-line {
+  margin-bottom: 25px;
+  display: flex;
+
+  label {
+    min-width: 175px;
+
+    padding-top: 5px;
+    padding-right: 15px;
+    color: #444444;
+
+    span {
+      color: $green;
+    }
+
+    &::placeholder {
+      color: #707070;
+    }
+  }
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+    display: block;
+    border: 1px solid #d7d7d7;
+    height: 40px;
+    background-color: #f9f9f9;
+    padding: 0 18px;
+  }
+
+  textarea {
+    resize: none;
+    height: 150px;
+    padding: 8px 18px;
+  }
+
+  input[type="file"] {
+    outline: none;
+  }
+
+  .jq-file__browse {
+    position: absolute;
+    top: 5px;
+    right: auto;
+    left: 9px;
+    font-size: 12px;
+    line-height: 26px;
+    padding: 0 12px;
+    border: 1px solid #d7d7d7;
+    border-left: 1px solid #d7d7d7;
+    border-radius: 0;
+    background: #ffffff;
+    box-shadow: none;
+    text-shadow: none;
+    color: #444444;
+  }
+
+  .jq-file {
+    width: 100%;
+    padding: 0 18px;
+    border-radius: 0px;
+    box-shadow: none;
+    border: 1px solid #d7d7d7;
+    height: 40px;
+    background-color: #f9f9f9;
+  }
+
+  .jq-file__name {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    margin-left: 100px;
+
+    padding: 0;
+    border: none;
+    border-bottom-color: transparent;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    font-size: 12px;
+    color: #707070;
+    line-height: 40px;
+
+  }
+
+  .jq-selectbox {
+    width: 100%;
+  }
+
+  .jq-selectbox__select {
+    height: 40px;
+    padding: 0 18px;
+    border: 1px solid #d7d7d7;
+    border-bottom-color: #d7d7d7;
+    border-radius: 0;
+    box-shadow: none;
+    font-family: "Roboto-Regular", sans-serif;
+    color: #707070;
+    text-shadow: none;
+    line-height: 40px;
+    background: none;
+  }
+
+  .jq-selectbox__trigger {
+    border-left: none;
+
+  }
+
+  .jq-selectbox__trigger-arrow {
+    border: none;
+    right: 20px;
+    top: 0;
+    line-height: 40px;
+    font-size: 15px;
+
+    &::before {
+      font-family: "icomoon";
+      content: "\f0d7";
+    }
+  }
+}
+
+//end upload
+
 //end  profile
 
-@import 'media';
+@import "media";
